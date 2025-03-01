@@ -1,1 +1,21 @@
+# Python-related
+__pycache__/
+*.py[cod]
+
+# Environment variables and API keys
 .env
+secrets.toml
+
+# Streamlit-related
+.streamlit/
+
+# Virtual environment
+venv/
+.env/
+
+# System files (MacOS & general)
+.DS_Store
+Thumbs.db
+
+
+
