@@ -3,6 +3,9 @@ import os
 import google.generativeai as genai
 from dotenv import load_dotenv
 
+# Load API key from Streamlit secrets
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+
 # Load environment variables for API key security
 load_dotenv()
 
